@@ -1,0 +1,40 @@
+.banner-area {
+  background-size: cover;
+  overflow: hidden;
+  padding: 0;
+  margin-bottom: 25px;
+  .item-banner {
+    background-color: $primaryBg ;
+    min-height: 290px;
+  }
+  .banner-area-content {
+    position: absolute;
+    left: 48.5%;
+    top: 15%;
+    &.item-prev {
+      left: 2.5%;
+      top: 15%;
+    }
+    .subhead-banner-area {
+      text-transform: uppercase;
+      font: $xlSize $latoSemibold;
+      color: $bgSubhead;
+      margin-bottom: 10px;
+    }
+    .color-strawberry {
+      color: $bannerColor;
+    }
+    .color-blue {
+      text-transform: uppercase;
+      color: $bgSubhead;
+    }
+    p {
+      font: $bigSize $latoSemibold;
+      color: $bannerGray;
+    }
+    .price-banner,
+    .description-banner {
+      margin-bottom: 25px;
+    }
+  }
+}

@@ -1,0 +1,192 @@
+body {
+  background: url("../../images/bg_top.jpg") no-repeat;
+  background-size: cover;
+  min-height: 100%;
+}
+
+.wrap {
+  @include box-shadow (0 10px 20px 0 rgba(0,0,0,0.75));
+  background: #fff;
+  max-width: 1320px;
+  width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.main-header {
+  padding: 5px 0 0 0;
+  .logo {
+    float: left;
+    display: block;
+    color: $primaryGray;
+    margin-bottom: 10px;
+    padding: 0 15px 0 0;
+    img {
+      min-height: 140px;
+    }
+  }
+  .description-web-site {
+    overflow: hidden;
+    padding: 0;
+    h2 {
+      font: 23px $hortensia;
+      color: $subheadColor;
+      float: left;
+      padding: 0;
+    }
+    p {
+      float: right;
+    }
+  }
+}
+
+.main-information {
+  padding: 30px 0 0 25px;
+  .time-work {
+    font: 17px $sansPrimary;
+    padding: 0;
+  }
+  .list-social-icon {
+    display: block;
+    overflow: hidden;
+    margin-bottom: 10px;
+    text-align: center;
+    float: right;
+    margin-right: 105px;
+    li {
+      display: inline-block;
+      vertical-align: middle;
+      margin: 0;
+      a {
+        display: inline-block;
+        text-indent: -9999px;
+      }
+    }
+    .vk-icon {
+      padding: 3px 13px;
+      background: url("../../images/vj_icon.png") no-repeat;
+    }
+    .instagram-icon {
+      padding: 3px 13px;
+      background: url("../../images/instagram_icon.png") no-repeat;
+    }
+    .facebook-icon {
+      padding: 3px 6px;
+      background: url("../../images/facebook_icon.png") no-repeat;
+    }
+  }
+  .social-link {
+    .email {
+      border-bottom: 1px dotted #464646;
+      clear: both;
+      float: right;
+      margin-right: 25px;
+      a {
+        display: inline-block;
+        font: $smallSize $sansPrimary;
+        color: $primaryGray;
+      }
+    }
+  }
+  .main-address {
+    padding-right: 0;
+    text-align: right;
+    .phone {
+      display: inline-block;
+      font: 28px $sansBold;
+      color: $subheadColor;
+      padding-left: 25px;
+    }
+    .street {
+      background: url("../../images/marker_icon.png") 20% 100% no-repeat;
+      font: 15px $sansPrimary;
+      color: $primaryGray;
+      padding-left: 20px;
+      margin: 0;
+    }
+  }
+}
+
+.description-web-site {
+  margin-top: 10px;
+  .main-link {
+    @include btn-primary;
+  }
+}
+
+.navbar {
+  clear: both;
+}
+
+.navbar-inverse {
+  background: #3789cc;
+  @include border-radius (0);
+  border: none;
+  min-height: 40px;
+  margin-bottom: 0;
+  .navbar-toggler {
+    display: none;
+  }
+  .navbar-nav {
+    min-height: 40px;
+    width: 100%;
+    .nav-item {
+      line-height: 3.4;
+      .nav-link {
+        display: inline-block;
+        font: $largeSize $latoSemibold;
+        color: $primaryWhite;
+        padding: 0 30px;
+      }
+      &:hover {
+        background: #559bd4;
+      }
+    }
+  }
+  .dropdown {
+    li {
+      color: $bannerColor;
+      margin-bottom: 15px;
+      line-height: 1;
+      a {
+        font: $largeSize $latoRegular;
+        color: $dropGray;
+        padding: 0;
+        line-height: 1;
+      }
+    }
+  }
+  .list-services {
+    list-style-type: disc;
+  }
+  .dropdown-menu-main {
+    @include border-radius (0);
+    border: none;
+    min-width: 515px;
+    background-color: $dropColor;
+    padding: 20px 0 15px 30px;
+  }
+  .subhead-dropdown {
+    font: $largeSize $latoRegular;
+    color: $bannerColor;
+    display: inline-block;
+  }
+  .dropdown-menu-secondary,
+  .dropdown-menu-third,
+  .dropdown-menu-fourth {
+    width: 220px;
+    left: 300px;
+    background-color: transparent;
+    border: none;
+    @include box-shadow (none);
+  }
+  .dropdown-menu-secondary {
+    top: 62px;
+  }
+  .dropdown-menu-third {
+    top: 228px;
+  }
+  .dropdown-menu-fourth {
+    top: 458px;
+  }
+}

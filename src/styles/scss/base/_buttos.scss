@@ -1,0 +1,34 @@
+@mixin btn-primary (){
+  display: block;
+  color: $primaryWhite;
+  font-size: $largeSize;
+  font-family: $sansPrimary;
+  width: 215px;
+  height: 30px;
+  text-align: center;
+  background: $bannerColor;
+  line-height: 1.6;
+  border-radius: (30px);
+}
+
+@mixin btn-secondary (){
+  display: block;
+  color: $primaryWhite;
+  font-size: $xxxlSize;
+  font-family: $sansPrimary;
+  width: 305px;
+  height: 52px;
+  text-align: center;
+  background: #f05282;
+  line-height: 2;
+  border-radius: (30px);
+}
+
+@mixin link-read (){
+  display: inline-block;
+  color: $strawberry;
+  font-size: $primarySize;
+  font-family: $sansPrimary;
+  text-align: center;
+  border-bottom: 1px solid $strawberry;
+}

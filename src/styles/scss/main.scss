@@ -1,0 +1,17 @@
+@import "compass";
+@import "compass/css3";
+
+@import "../css/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap.scss";
+@import "../../../node_modules/owl.carousel/src/scss/owl.carousel.scss";
+@import "../../../node_modules/owl.carousel/src/scss/owl.theme.default.scss";
+
+@import "base/reset_styles";
+@import "fonts/fonts";
+@import "base/buttos";
+@import "base/variables";
+@import "sections/welcome";
+@import "sections/banner-area";
+@import "sections/_middle-content";
+@import "base/owl-carousel";
+@import "sections/appointment-section";
+@import "sections/footer";

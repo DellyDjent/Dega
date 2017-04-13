@@ -1,0 +1,32 @@
+.appointment {
+  background: url("../../images/bg_appointment.jpg") $primaryBg no-repeat;
+  background-size: cover;
+  padding: 75px 0;
+  margin-top: 25px;
+  .appointment-content {
+    background-color: rgba(255,255,255, 0.5);
+    width: 100%;
+    .header-appointment {
+      padding: 45px 0 50px;
+      text-align: center;
+      width: 50%;
+      margin: 0 auto;
+      h6 {
+        font: 30px $latoMedium;
+        border-bottom: 1px solid $subheadColor;
+        color: $subheadColor;
+        padding-bottom: 10px;
+        margin-bottom: 25px;
+      }
+      .description-appointment {
+        font: $xxlSize $latoRegular;
+        color: #2d2d2d;
+        margin-bottom: 25px;
+      }
+      .main-link {
+        @include btn-secondary;
+        margin: 0 auto;
+      }
+    }
+  }
+}

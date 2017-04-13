@@ -1,0 +1,35 @@
+.slider-area .owl-nav .owl-prev, .owl-next {
+  top: 15%;
+  width: 15px;
+  height: 28px;
+  text-indent: -9999px;
+  position: absolute;
+  padding: 0;
+  margin: 0;
+}
+
+.slider-area .owl-nav .owl-prev {
+  background: url("../../images/arrow_left.png") no-repeat;
+  background-size: contain;
+  left: 3%;
+}
+
+.slider-area .owl-nav .owl-next {
+  background: url("../../images/arrow_right.png") no-repeat;
+  background-size: contain;
+  right: 1%;
+}
+
+.slider-area .owl-theme .owl-nav .owl-next:hover {
+  background: url("../../images/arrow_right.png") no-repeat;
+  background-size: contain;
+}
+
+.slider-area .owl-theme .owl-nav .owl-prev:hover {
+  background: url("../../images/arrow_left.png") no-repeat;
+  background-size: contain;
+}
+
+.slider-area .owl-theme .owl-nav {
+  margin: 0;
+}

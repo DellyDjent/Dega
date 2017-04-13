@@ -1,0 +1,33 @@
+.main-footer {
+  padding: 0;
+  margin-top: 20px;
+  .logo {
+    float: left;
+    display: block;
+    color: $primaryGray;
+    margin-bottom: 10px;
+    padding: 0 15px 0 0;
+    img {
+      min-height: 140px;
+    }
+  }
+  .description-web-site {
+    overflow: hidden;
+    padding: 0;
+    .license,
+    .organization {
+      font: $smallSize $sansPrimary;
+      color: $primaryGray;
+      padding: 0;
+    }
+    .license {
+      float: left;
+      width: 37%;
+    }
+    .organization {
+      float: left;
+      width: 63%;
+      padding-left: 40px;
+    }
+  }
+}
